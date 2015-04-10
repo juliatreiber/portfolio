@@ -1,0 +1,97 @@
+
+
+.jumbotron {
+    background: url(img/biker.jpg) no-repeat;
+    background-size: cover; /* Is it possible to animate a cover? */
+    position: relative;
+    height: 500px;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+
+.jumbotron h1 {
+    margin-top: 125px;
+    color: #416ae4;
+}
+
+.jumbotron p {
+    margin-left: 25px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+
+nav li {
+    display: inline;
+}
+
+nav li a {
+    color: royalblue;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 4px;
+    transition: all .15s ease;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: royalblue;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.content {
+    width: 940px;
+    margin: 0 auto;
+}
+
+
+
+.blueBlock {
+    /*width: 85%;*/
+    margin: 0 auto;
+    background-color: royalblue;
+    border-radius: 8px;
+    padding: 8px; /*    ??????????10px around is not equal*/
+}
+
+.blueBlock p {
+    color: white;
+}
+
+.bodytext .container {
+    width: 65%;
+}
+
+.thumbnail {
+    border: none;
+}
+
+
+.email {
+    width: 100%;
+    padding: 20px 0;
+    background-color: royalblue;
+}
+
+.email form {
+    margin: 0 auto;
+    width: 50%;
+    color: white;
+}
+
+footer {
+    height: 300px;
+    width: 100%;
+    background-color: lightgray;
+}
+
+footer .row {
+    margin-top: 25px;
+}
+
+ul {
+    list-style-type: none;
+}
+
