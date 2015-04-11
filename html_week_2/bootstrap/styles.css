@@ -1,7 +1,7 @@
 
 
 .jumbotron {
-    background: url(img/biker.jpg) no-repeat;
+    background: url(img/bike2.jpg) no-repeat center;
     background-size: cover; /* Is it possible to animate a cover? */
     position: relative;
     height: 500px;
@@ -11,12 +11,16 @@
 
 
 .jumbotron h1 {
-    margin-top: 125px;
+    top: 170px;
+    left: 100px;
+    position: absolute;
     color: #416ae4;
 }
 
 .jumbotron p {
-    margin-left: 25px;
+    left: 140px;
+    top: 385px;
+    position:absolute;
     color: #ffffff;
     font-weight: bold;
 }
@@ -46,6 +50,12 @@ nav a:hover {
     margin: 0 auto;
 }
 
+.logo {
+    position: absolute;
+    top: 65px;
+    left: 255px;
+}
+
 
 
 .blueBlock {
@@ -54,10 +64,22 @@ nav a:hover {
     background-color: royalblue;
     border-radius: 8px;
     padding: 8px; /*    ??????????10px around is not equal*/
+    height: 35px;
 }
 
 .blueBlock p {
     color: white;
+    display: none;
+    text-align: center;
+}
+
+.content h1 {
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+.spacer {
+    height: 55px;
 }
 
 .bodytext .container {
@@ -67,6 +89,10 @@ nav a:hover {
 .thumbnail {
     border: none;
 }
+
+/*#route {*/
+    /*margin: auto 0;*/
+/*}*/
 
 
 .email {
@@ -91,7 +117,7 @@ footer .row {
     margin-top: 25px;
 }
 
-ul {
-    list-style-type: none;
+.footerText {
+    padding-left: 50px;
 }
 
