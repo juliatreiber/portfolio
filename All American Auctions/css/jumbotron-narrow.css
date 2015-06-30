@@ -1,0 +1,213 @@
+/* Space out content a bit */
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* Custom page header */
+.header {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e5e5e5;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 830px;
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+.jumbotron .btn {
+  padding: 14px 24px;
+  font-size: 21px;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
+
+.images {
+	background: #FFF;
+	margin: 0;
+	overflow: hidden;
+	padding: 8px 8px 7px;
+	border-top: 10px solid #0B0B0B;
+	border-bottom: 10px solid #0B0B0B;
+}
+
+.images li {
+	float: left;
+	height: 160px;
+	width: 225px;
+	background-color: #000;
+	position: relative;
+	margin: 0 20px 0 0;
+	list-style-type: none;
+}
+
+.images a span {
+	background: url(images/text_hover.png) 0 -40px no-repeat;
+	position: absolute;
+	bottom: 65px;
+	height: 40px;
+	text-indent: -9999px;
+}
+
+.images span.play_btn {
+	background: url(images/play_btn.png) no-repeat;
+	bottom: 22px;
+	left: 100px;
+	height: 29px;
+	width: 41px;
+}
+
+.images a:hover span.play_btn {
+	background-position: 0 -30px;
+}
+
+.images .bikes {
+	width: 85px;
+	left: 71px;
+	background-position: 0 -40px;
+}
+
+.images a:hover .bikes {
+	background-position: 0 0;
+}
+
+.images .components {
+	width: 140px;
+	left: 41px;
+	background-position: -85px -43px;
+}
+
+.images a:hover .components {
+	background-position: -85px -2px;
+}
+
+.images .apparel {
+	width: 107px;
+	left: 60px;
+	background-position: -224px -39px;
+}
+
+.images a:hover .apparel {
+	background-position: -224px 0;
+}
+
+.images .close_out {
+	width: 125px;
+	left: 48px;
+	background-position: -324px -40px;
+}
+
+.images a:hover .close_out {
+	background-position: -324px 0;
+}
+
+.images .last {
+	margin: 0;
+}
+
+.images a {
+	display: inline;
+}
+
+.images img{
+	-webkit-filter: contrast(100%);
+	   -moz-filter: contrast(100%);
+	    -ms-filter: contrast(100%);
+	        filter: contrast(100%);  
+
+}
+.images img:hover{
+	-webkit-filter: contrast(120%);
+	   -moz-filter: contrast(120%);
+	    -ms-filter: contrast(120%);
+	        filter: contrast(120%);  
+
+}
+
+.navbar {
+    background-color: white;
+    border-color: white;
+}
+
+/* ----------- LINKS ------------- */
+/* unvisited link */
+a:link {
+    color: #000000;
+    text-decoration:none;
+    
+}
+
+/* visited link */
+a:visited {
+    color: #000000;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: lightslategray;
+    text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: #000000;
+    text-decoration: none;
+}
+
